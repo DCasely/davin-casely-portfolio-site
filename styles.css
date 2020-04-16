@@ -249,22 +249,6 @@ MASS INSTITUTE OF TECHNOLOGY
 /* EXPERIENCE */
 /* ===================== */
 
-/* 
-Assurant Colors:
-#f9a61a
-#0070b8
-#00b034
-#797979
-
-Zimmer Biomet Colors:
-#009fdf
-#333333
-
-Aon Colors:
-#f0f0f0
-#e11b22
-*/
-
 #experience {
   display: flex;
   justify-content: center;
@@ -272,28 +256,47 @@ Aon Colors:
   width: 100vw;
 }
 
-#assurant-box {
-  background-color: #f9a61a;
+#thecaselygroup-container {
+  background-color: #959595;
 }
 
 #experience h2 {
   margin: 5% 0;
 }
 
-#experience img {
+.company-logo {
+  background-color: #fff;
+  width: 10rem;
+  height: 10rem;
+  border: 1rem solid white;
   border-radius: 50%;
 }
 
-#zimmer-box {
-  background-color: #009fdf;
+#isg-container {
+  background-color: #000;
+  color: #fff;
 }
 
-#aon-box {
-  background-color: hsla(358, 79%, 49%, 0.75);
+#isg-container img {
+  background-color: #fff;
 }
 
-#heartware-box {
-  background-color: #f0f0f0;
+#pgt-container {
+  background-color: #959595;
+}
+
+#pgt-video {
+  border: 5px solid #fff;
+}
+
+#dominos-container {
+  background-color: #000;
+  color: #fff;
+}
+
+#million-dollar-img {
+  width: 70%;
+  border: 5px solid #fff;
 }
 
 /* ===================== */
