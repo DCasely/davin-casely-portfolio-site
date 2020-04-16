@@ -234,11 +234,16 @@ MASS INSTITUTE OF TECHNOLOGY
 }
 
 .card {
-  margin: auto;
+  margin: 5% auto;
 }
 
 .card-img-top {
   height: 15rem;
+}
+
+.card-body .btn {
+  background-color: #000;
+  border-color: #959595;
 }
 
 /* ===================== */
@@ -258,6 +263,7 @@ MASS INSTITUTE OF TECHNOLOGY
 
 #experience h2 {
   margin: 5% 0;
+  text-transform: uppercase;
 }
 
 .company-logo {
