@@ -177,25 +177,47 @@ a:hover {
 }
 
 /* ===================== */
-/* EDUCATIONS */
+/* EDUCATION */
 /* ===================== */
 
 /* 
-FIU COLORS
-#B6862C
-#081E3F
+ABRAHAM UNIVERSITY COLORS
+#00609f
+
+FREECODECAMP COLORS
+#006400
+
+MASS INSTITUTE OF TECHNOLOGY
+#A31F34
 */
 
-#education {
-  background-color: #959595;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.universities {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1%;
 }
 
-#education h2 {
-  color: #081e3f;
-  margin: 5% 0;
+.universities img {
+  width: 10rem;
+  border: 2.5px solid #fff;
+  margin: 2.5% 0;
+}
+
+.universities h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#abraham-univ {
+  background-color: #00609f;
+}
+
+#freecodecamp {
+  background-color: #006400;
+}
+
+#mit {
+  background-color: #a31f34;
 }
 
 /* ===================== */
