@@ -257,8 +257,16 @@ MASS INSTITUTE OF TECHNOLOGY
   width: 100vw;
 }
 
+#experience .row {
+  min-height: 30rem;
+}
+
 #thecaselygroup-container {
   background-color: #959595;
+}
+
+#thecaselygroup-container li {
+  text-align: left;
 }
 
 #experience h2 {
@@ -289,6 +297,7 @@ MASS INSTITUTE OF TECHNOLOGY
 
 #pgt-video {
   border: 5px solid #fff;
+  max-width: 100%;
 }
 
 #dominos-container {
@@ -297,7 +306,7 @@ MASS INSTITUTE OF TECHNOLOGY
 }
 
 #million-dollar-img {
-  width: 70%;
+  width: 60%;
   border: 5px solid #fff;
 }
 
