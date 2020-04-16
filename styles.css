@@ -200,7 +200,7 @@ MASS INSTITUTE OF TECHNOLOGY
 .universities img {
   width: 10rem;
   border: 2.5px solid #fff;
-  margin: 2.5% 0;
+  margin: 0 0 5% 0;
 }
 
 .universities img:hover {
@@ -255,10 +255,6 @@ MASS INSTITUTE OF TECHNOLOGY
   justify-content: center;
   align-items: center;
   width: 100vw;
-}
-
-#experience .row {
-  min-height: 30rem;
 }
 
 #thecaselygroup-container {
