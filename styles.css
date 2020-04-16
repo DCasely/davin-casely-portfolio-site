@@ -203,6 +203,10 @@ MASS INSTITUTE OF TECHNOLOGY
   margin: 2.5% 0;
 }
 
+.universities img:hover {
+  transform: scale(1.2);
+}
+
 .universities h2 {
   font-size: 2rem;
   font-weight: 600;
