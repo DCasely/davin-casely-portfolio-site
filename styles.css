@@ -260,7 +260,7 @@ MASS INSTITUTE OF TECHNOLOGY
 }
 
 #thecaselygroup-container {
-  background-color: #959595;
+  background-color: rgba(149, 149, 149, 0.5);
 }
 
 #thecaselygroup-container li {
@@ -290,7 +290,7 @@ MASS INSTITUTE OF TECHNOLOGY
 }
 
 #pgt-container {
-  background-color: #959595;
+  background-color: rgba(149, 149, 149, 0.5);
 }
 
 #pgt-video {
