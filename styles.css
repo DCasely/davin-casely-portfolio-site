@@ -235,6 +235,11 @@ MASS INSTITUTE OF TECHNOLOGY
   text-align: center;
 }
 
+#certifications .card-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .card {
   margin: 5% auto;
 }
