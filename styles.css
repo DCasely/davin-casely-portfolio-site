@@ -49,6 +49,12 @@ a:hover {
   text-decoration: none;
 }
 
+.card-body .btn {
+  background-color: #000;
+  border-color: #959595;
+  border-radius: 30px;
+}
+
 /* ===================== */
 /* NAVIGATION */
 /* ===================== */
@@ -269,11 +275,6 @@ MASS INSTITUTE OF TECHNOLOGY
   font-size: 1rem;
 }
 
-.card-body .btn {
-  background-color: #000;
-  border-color: #959595;
-}
-
 /* ===================== */
 /* EXPERIENCE */
 /* ===================== */
@@ -333,6 +334,33 @@ MASS INSTITUTE OF TECHNOLOGY
   width: 60%;
   border: 2.5px solid #fff;
 }
+
+/* ===================== */
+/* PROJECTS */
+/* ===================== */
+
+#projects {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+#projects .card-title {
+  font-size: 1.25rem;
+}
+
+#projects .card {
+  border: none;
+}
+
+#projects .card-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* #projects .card-body a {
+  background-color: #959595;
+  color: #fff;
+} */
 
 /* ===================== */
 /* MEDIA QUERIES */
