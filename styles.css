@@ -98,6 +98,8 @@ a:hover {
 
 #welcome h2 {
   font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 4px;
 }
 
 #social-media-icons a {
@@ -106,6 +108,19 @@ a:hover {
 
 #social-media-icons a:hover {
   transform: scale(1.5);
+}
+
+#call-now-btn,
+#email-btn {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 10rem;
+}
+
+#call-now-btn a,
+#email-btn a {
+  font-size: 1.25rem;
+  font-weight: 3400;
 }
 
 /* ===================== */
@@ -246,6 +261,12 @@ MASS INSTITUTE OF TECHNOLOGY
 
 .card-img-top {
   height: 15rem;
+}
+
+.card-title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
 }
 
 .card-body .btn {
