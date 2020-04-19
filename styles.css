@@ -102,9 +102,15 @@ a:hover {
   opacity: 0.75;
 }
 
-#welcome h2 {
+#title {
+  max-width: 40rem;
+  margin: auto;
+}
+
+#title h2 {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 500;
+  text-transform: uppercase;
   letter-spacing: 4px;
 }
 
@@ -118,7 +124,7 @@ a:hover {
 
 #call-now-btn,
 #email-btn {
-  border: 1px solid #fff;
+  border: 1px solid #959595;
   border-radius: 30px;
   width: 10rem;
 }
@@ -126,7 +132,11 @@ a:hover {
 #call-now-btn a,
 #email-btn a {
   font-size: 1.25rem;
-  font-weight: 3400;
+  font-weight: 500;
+}
+
+#call-now-btn:hover {
+  border: 1px solid #fff;
 }
 
 /* ===================== */
