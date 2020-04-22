@@ -367,6 +367,10 @@ MASS INSTITUTE OF TECHNOLOGY
   padding-right: 0px;
 }
 
+#projects img:first-of-type {
+  border: 1px solid black;
+}
+
 /* #projects .card-body a {
   background-color: #959595;
   color: #fff;
