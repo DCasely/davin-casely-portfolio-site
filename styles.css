@@ -75,6 +75,16 @@ a:hover {
   color: #fff;
 }
 
+#main-menu .current {
+  color: #000;
+  background: white;
+}
+
+#main-menu .current:hover {
+  color: #000;
+  background: white;
+}
+
 /* ===================== */
 /* WELCOME */
 /* ===================== */
