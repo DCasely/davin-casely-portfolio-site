@@ -93,7 +93,7 @@ a:hover {
 #welcome {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/miami.jpg);
+    url(./images/beachverticalview.jpeg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -110,7 +110,6 @@ a:hover {
 #welcome h1,
 #welcome h2 {
   text-align: center;
-  opacity: 0.75;
 }
 
 #title {
