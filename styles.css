@@ -72,7 +72,8 @@ a:hover {
 }
 
 #main-menu .nav-link:hover {
-  color: #fff;
+  color: #000;
+  background: #959595;
 }
 
 #main-menu .current {
@@ -82,7 +83,7 @@ a:hover {
 
 #main-menu .current:hover {
   color: #000;
-  background: white;
+  background: #959595;
 }
 
 /* ===================== */
