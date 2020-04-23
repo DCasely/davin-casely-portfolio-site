@@ -364,6 +364,10 @@ MASS INSTITUTE OF TECHNOLOGY
   text-align: center;
 }
 
+#projects a:hover {
+  transform: scale(1.1);
+}
+
 #projects .card-title {
   font-size: 1.25rem;
 }
