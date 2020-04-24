@@ -21,6 +21,8 @@ function changeBackground() {
     './images/codebackground.jpeg',
     './images/heavycode.jpeg',
     './images/mountains.jpeg',
+    './images/chesspieces.jpeg',
+    './images/chessstrategy.jpeg',
   ];
 
   let random = Math.floor(Math.random() * backgroundImages.length);
