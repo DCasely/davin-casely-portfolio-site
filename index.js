@@ -1,13 +1,16 @@
 const welcomeSection = document.querySelector('.random-background');
 const profileImage = document.querySelector('#profile-image');
 
+// RANDOM BACKGROUND ON LOAD
+changeBackground();
+
+// RANDOM BACKGOUND ON PROFILE IMAGE CLICK
 profileImage.addEventListener('click', function () {
   changeBackground();
 });
 
-// RANDOMIZE BACKGROUND
+// RANDOMIZE BACKGROUND FUNCTION
 function changeBackground() {
-  // LIST OF BACKGROUNDS IMAGES TO ITERATE THROUGH
   let backgroundImages = [
     './images/beachverticalview.jpeg',
     './images/miami.jpg',
@@ -17,7 +20,6 @@ function changeBackground() {
   ];
 
   let random = Math.floor(Math.random() * backgroundImages.length);
-
   let randomizedBackground = backgroundImages[random];
 
   welcomeSection.style.background = `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
