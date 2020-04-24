@@ -36,21 +36,21 @@ document.addEventListener('scroll', () => {
   }
 
   // CERTIFICATION
-  if (vertical > 2140 && vertical < 3080) {
+  if (vertical > 2140 && vertical < 2700) {
     certificationLink.classList.add('current');
-  } else if (vertical < 2140 || vertical > 3080) {
+  } else if (vertical < 2140 || vertical > 2700) {
     certificationLink.classList.remove('current');
   }
 
   // EXPERIENCE
-  if (vertical > 3080 && vertical < 4950) {
+  if (vertical > 2700 && vertical < 4250) {
     experienceLink.classList.add('current');
-  } else if (vertical < 3080 || vertical > 4950) {
+  } else if (vertical < 3080 || vertical > 4250) {
     experienceLink.classList.remove('current');
   }
 
   // PROJECTS
-  vertical > 4950
+  vertical > 4250
     ? projectsLink.classList.add('current')
     : projectsLink.classList.remove('current');
 });
