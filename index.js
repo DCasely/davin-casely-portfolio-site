@@ -15,7 +15,6 @@ const projectsLink = document.querySelector('.projects-link');
 
 document.addEventListener('scroll', () => {
   let vertical = window.scrollY;
-  console.log(vertical);
 
   // HOME
   vertical < 700
