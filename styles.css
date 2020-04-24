@@ -92,19 +92,30 @@ a:hover {
 
 #welcome {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/beachverticalview.jpeg);
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
 }
 
+.random-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/beachverticalview.jpeg);
+  background-size: cover;
+}
+
 #profile-image {
   border-radius: 50%;
   width: 15rem;
   height: 15rem;
+}
+
+#profile-image:hover {
+  transform: scale(1.1);
+}
+
+#profile-image:active {
+  transform: scale(1);
 }
 
 #welcome h1,
