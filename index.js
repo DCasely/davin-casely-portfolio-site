@@ -1,6 +1,10 @@
 const welcomeSection = document.querySelector('.random-background');
 const profileImage = document.querySelector('#profile-image');
 
+// ==============================
+// RANDOMIZING BACKGROUND
+// ==============================
+
 // RANDOM BACKGROUND ON LOAD
 changeBackground();
 
