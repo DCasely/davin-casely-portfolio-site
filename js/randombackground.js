@@ -16,12 +16,10 @@ profileImage.addEventListener('click', function () {
 // RANDOMIZE BACKGROUND FUNCTION
 function changeBackground() {
   let backgroundImages = [
-    './images/beachverticalview.jpeg',
-    './images/miami.jpg',
-    './images/codebackground.jpeg',
-    './images/heavycode.jpeg',
-    './images/mountains.jpeg',
-    './images/chessstrategy.jpeg',
+    '../images/codebackground.jpeg',
+    '../images/heavycode.jpeg',
+    '../images/chessstrategy.jpeg',
+    '../images/chesswhite.jpeg',
   ];
 
   let random = Math.floor(Math.random() * backgroundImages.length);
