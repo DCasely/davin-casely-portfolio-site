@@ -6,7 +6,7 @@ const welcomeSection = document.querySelector('.random-background');
 const profileImage = document.querySelector('#profile-image');
 
 // RANDOM BACKGROUND ON LOAD
-changeBackground();
+// changeBackground();
 
 // RANDOM BACKGROUND ON PROFILE IMAGE CLICK
 profileImage.addEventListener('click', function () {
@@ -16,10 +16,10 @@ profileImage.addEventListener('click', function () {
 // RANDOMIZE BACKGROUND FUNCTION
 function changeBackground() {
   let backgroundImages = [
-    '../images/codebackground.jpeg',
-    '../images/heavycode.jpeg',
-    '../images/chessstrategy.jpeg',
-    '../images/chesswhite.jpeg',
+    './images/chesswhite.jpeg',
+    './images/codebackground.jpeg',
+    './images/chessstrategy.jpeg',
+    './images/heavycode.jpeg',
   ];
 
   let random = Math.floor(Math.random() * backgroundImages.length);
