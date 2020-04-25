@@ -318,6 +318,13 @@ MASS INSTITUTE OF TECHNOLOGY
   width: 100vw;
 }
 
+.experience-containers {
+  min-height: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #thecaselygroup-container {
   background-color: rgba(149, 149, 149, 0.5);
 }
