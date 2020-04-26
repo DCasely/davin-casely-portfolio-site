@@ -293,7 +293,8 @@ MASS INSTITUTE OF TECHNOLOGY
   padding-right: 0px;
 }
 
-.card {
+#certifications .card {
+  width: 18rem;
   margin: 5% auto;
 }
 
@@ -403,6 +404,8 @@ MASS INSTITUTE OF TECHNOLOGY
 
 #projects .card {
   border: none;
+  width: 20rem;
+  margin: 5% auto;
 }
 
 #projects .card-body {
