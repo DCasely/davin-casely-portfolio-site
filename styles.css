@@ -326,7 +326,12 @@ MASS INSTITUTE OF TECHNOLOGY
 }
 
 #thecaselygroup-container {
-  background-color: rgba(149, 149, 149, 0.5);
+  background-color: #fafafa;
+}
+
+#thecaselygroup-container .company-logo {
+  border: 1px solid black;
+  padding: 25px;
 }
 
 #thecaselygroup-container li {
@@ -356,7 +361,12 @@ MASS INSTITUTE OF TECHNOLOGY
 }
 
 #pgt-container {
-  background-color: rgba(149, 149, 149, 0.5);
+  background-color: #fafafa;
+}
+
+#pgt-container .company-logo {
+  border: 1px solid black;
+  padding: 25px;
 }
 
 #pgt-video {
