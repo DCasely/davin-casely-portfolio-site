@@ -2,6 +2,8 @@
 // RANDOMIZING BACKGROUND
 // ===============================================
 
+// MUST add random-background class in HTML for this to work.
+
 const welcomeSection = document.querySelector('.random-background');
 const profileImage = document.querySelector('#profile-image');
 

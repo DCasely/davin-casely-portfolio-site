@@ -104,6 +104,18 @@ a:hover {
   background-size: cover;
 }
 
+.code-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/codebackground.jpeg);
+  background-size: cover;
+}
+
+.chess-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/chessstrategy.jpeg);
+  background-size: cover;
+}
+
 #profile-image {
   border-radius: 50%;
   width: 15rem;
